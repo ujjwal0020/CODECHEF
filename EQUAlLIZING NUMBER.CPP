@@ -7,10 +7,12 @@ int main() {
 	cin>>t;
 	for(int i=0;i<t;i++)
 	{
-	    int a,b;
-	    cin>>a>>b;
-	    if(a==b) cout<<"yes"<<endl;
-	    else cout<<"no"<<endl;
+	    int x,y;
+	    cin>>x>>y;
+	    if(((x%2 ==0) and (y%2==0)) or ((x%2 ==1) and (y%2 ==1)) )
+	    cout << "yes" << endl;
+	    else
+	    cout << "NO" << endl;
 	}
 	return 0;
 }
