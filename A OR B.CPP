@@ -15,6 +15,6 @@ for(int m=0;m<t;m++){
 	    int q = 500 - ((x+y)*2);
 	    cout << max((i+j),(p+q)) << endl;
 	    
-	}
+	} u
 	return 0;
 }
