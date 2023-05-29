@@ -7,6 +7,7 @@ int main() {
 for(int m=0;m<t;m++){
 	    int x, y;
 	    cin >> x >> y;
+	
 	    //  for 1st A -> B attempt
 	    int i = 500 - (x*2);
 	    int j = 1000 - ((x+y)*4);
