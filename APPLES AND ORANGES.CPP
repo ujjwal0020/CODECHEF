@@ -4,6 +4,7 @@ using namespace std;
 int main() {
 	int x;
 	cin>>x;
+
 	int a,b,c;
 	cin>>a>>b;
 	c=a+b;
